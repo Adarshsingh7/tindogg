@@ -1,0 +1,171 @@
+#title{
+    background-color: #ff4c68;
+
+}
+.container-fluid{
+    padding-bottom: 50px;
+}
+#w{
+    font-family: 'Montserrat-black', sans-serif;
+    font-weight: 1000;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: whitesmoke;
+
+
+}
+#cc{
+    padding:3% 15%;
+    padding-bottom: 150px;
+
+}
+.navbar-brand{
+    font-size: xxx-large;
+}
+#brand{
+    font-family: ubuntu;
+    font-weight: bold;
+    padding-left: 0;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.navbar{
+    padding-left: 0;
+}
+#item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    color:rgb(255 255 255 / 35%);
+}
+/* download button */
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image{
+    width: 350px;
+    height: 700px;
+    transform: rotate(25deg);
+    position: absolute; 
+    right:250px;
+    top: 150px;
+}
+
+/* feature section  */
+.feature-box{ 
+    text-align: center;
+    padding:5%;
+}
+#features{
+    padding:7% 15%; 
+    position: relative;
+    background-color: #fff;
+    /* top: 700px; */
+}
+h3{
+    font-family: "montserrat";
+    font-weight: 800;
+}
+p{
+    color:#8f8f8f;
+}
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.icon            :hover{
+    color: #ff4c68;
+}
+
+/* testimonials section  */
+#testimonials{
+    text-align: center;
+    background-color:#ef8172;
+    color: #fff;
+}
+h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+.testimonials-image{
+    width: 10%;
+    margin: 20px;
+    border-radius: 100%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 2% 4%;
+}
+.carousel-item{
+
+    padding: 7% 15%;
+}
+ 
+
+/* payment division  */  
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+    border: 1px solid;
+}
+.card{
+    border-style: none;
+}
+.ml-auto{
+    margin-left: 575px;
+}
+
+
+/* media query for image section on mobile port  */
+@media (max-width: 1024px) {
+.title-image{
+    position: static;
+    transform: rotate(0);
+
+}
+#title{
+    text-align: center;
+}
+}
+
+
+
+/* footer section  */
+#cta{
+    padding: 7% 14%;
+    background-color:#ff4c68;
+    text-align: center;
+
+}
+.legg{
+    font-size: 3.5rem;
+    color: white;
+    line-height: 1.5;
+    margin-left: 200px;
+}
+#footer{
+    padding: 10%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.tindoog{
+    color: #000;
+}
+.social{
+    margin: 10px;
+}
